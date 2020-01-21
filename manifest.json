@@ -1,11 +1,11 @@
 {
   "name": "contentisi.blogspot.com",
   "short_name": "Contentisi",
-  "start_url": "https://contentisi.blogspot.com/",
+  "start_url": "https://contentisi.com/",
   "display": "standalone",
-  "background_color": "#FFF",
+  "background_color": "#FFFFFF",
   "theme_color": "#FF6B6B",
-  "description": "Blog Konten Penuh Isi",
+  "description": "Contentisi Tempat Berbagi Informasi Mengenai Bidang Teknologi, Komputer, Programming, Tutorial, Komputer, Game & Pengalaman",
   "icons": [{
     "src": "https://1.bp.blogspot.com/-T6hOD-1XmKY/XiEolvvjtGI/AAAAAAAACMQ/jBmkvEYB3-QJWLEn3i-MnQK6zGsoJPegQCNcBGAsYHQ/s48/contentisi_icon_48.png",
     "sizes": "48x48",
