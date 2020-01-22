@@ -6,5 +6,6 @@ img.css({'max-height':'100%','max-width':'100%','position':'relative','top':'50%
 function createContainerComponent(options,img){var container=$('<div />',{'class':'zoomable-container','html':img});container.css({'background':options.bgcolor,'padding':options.padding,'text-align':'center','position':'fixed','top':'0','left':'0','z-index':'9999999','height':'100%','width':'100%','display':'none'});container.css({'background':container.css('background').replace('rgb','rgba').replace(')','')+','+options.opacity+')'});return container}
 function disableBodyScroll(){$('html, body').css({'overflow':'hidden'})}
 function enableBodyScroll(setting){$('html, body').css({'overflow':setting})}
-$.fn.zoomable.defaults={padding:'15px',bgcolor:'#21252D',opacity:'0.5',speed:300,onshow:function(){},onhide:function(){}}})(jQuery)
+$.fn.zoomable.defaults={padding:'15px',bgcolor:'#21252D',opacity:'0.5',speed:300,onshow:function(){},onhide:function(){}}})(jQuery);
+$('.post-body img').zoomable();
 //]]>
