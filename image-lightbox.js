@@ -9,3 +9,4 @@ function enableBodyScroll(setting){$('html, body').css({'overflow':setting})}
 $.fn.zoomable.defaults={padding:'15px',bgcolor:'#21252D',opacity:'0.5',speed:300,onshow:function(){},onhide:function(){}}})(jQuery)
 //]]>
 $('.post-body img').zoomable();
+$('.zoomable-container').on('contextmenu','img',function(e){return false;});
