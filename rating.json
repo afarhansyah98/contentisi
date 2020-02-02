@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "92",
+    "bestRating": "100",
+    "worstRating": "6",
+    "ratingCount": "89"
+  },
+  "review": {
+    "@type": "Review",
+    "url": "<data:blog.url/>",
+    "author": {
+      "@type": "Person",
+      "name": "Adam Farhansyah",
+      "sameAs": "https://www.blogger.com/profile/16924541504695127305"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "<data:blog.title/>",
+      "sameAs": "<data:blog.homepageUrl/>"
+    },
+    "description": "<data:blog.pageName/>",
+    "inLanguage": "id",
+    "reviewRating": {
+      "@type": "Rating",
+      "worstRating": 0.2,
+      "bestRating": 5,
+      "ratingValue": 4.6
+    }
+  }
+}
